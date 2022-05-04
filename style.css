@@ -1,4 +1,6 @@
-
+.body{
+    background-color: #c5c5c5;
+}
 .footer{
     background-color: #533672;
     position: absolute;
@@ -27,4 +29,47 @@
 a {
     text-decoration: none;
     color: white;
+}
+.main{
+    padding-top: 150px;
+}
+.cuadro{
+    padding-top: 70px;
+}
+.serviciosTexto{
+    padding-top: 80px;
+
+}
+.galeria{
+    display: grid;
+    grid-template-areas: 
+    'tituloGaleria tituloGaleria tituloGaleria tituloGaleria tituloGaleria'
+    'foto1 foto2 foto3 foto4 foto5'
+    'foto6 foto7 foto8 foto9 foto10';
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 100px;
+    padding-left: 80px;
+}
+.galeria img{
+    height: 350px;
+    width: 275px;
+    border: solid 1px;
+}
+.tituloGaleria{
+    grid-area: tituloGaleria ;
+    padding-top: 20px;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s ;
+}
+@keyframes pulse {
+    0% {
+      background-color: #616161;
+    }
+    100% {
+      background-color: #c5c5c5;
+    }
 }
