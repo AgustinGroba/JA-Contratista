@@ -1,14 +1,14 @@
+
 .body{
     background-color: #c5c5c5;
 }
 .footer{
     background-color: #533672;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
 }
 .footerServicios{
     background-color: #533672;
-    position: absolute;
     bottom: 0%;
 }
 #footer{
