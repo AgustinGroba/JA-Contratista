@@ -30,6 +30,11 @@ a {
     text-decoration: none;
     color: white;
 }
+.mapa img{
+    width: 100%;
+    height: 65%;
+    border: solid;
+}
 .main{
     padding-top: 150px;
 }
